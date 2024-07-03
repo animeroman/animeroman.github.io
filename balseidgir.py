@@ -1,0 +1,1 @@
+print ("am am am am am am am am")
