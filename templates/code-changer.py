@@ -2,11 +2,11 @@ import os
 import re
 
 # Değiştirmek istediğiniz HTML kodu
-eski_kod = 'i><a href="./sci-fi.html">Sci-Fi 2</a><'
-yeni_kod = 'i><a href="./sci-fi.html">Sci-Fi</a><'
+eski_kod = 'rel="stylesheet" href="css'
+yeni_kod = 'rel="stylesheet" href="{{ url_for('static', filename='css'
 
 # Klasör yolunu belirtin
-klasor_yolu = 'C:/Users/aydin_000/Desktop/AnimeRoman/demo-file'  # İlgili klasörün yolu
+klasor_yolu = 'C:/Users/aydin_000/Desktop/RomanFlask/templates/ChangeZone'  # İlgili klasörün yolu
 
 # Klasör içinde dolaşarak dosyaları işleyin
 for klasor_yolu, alt_klasorler, dosya_listesi in os.walk(klasor_yolu):
