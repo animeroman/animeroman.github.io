@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Embedded YouTube Video</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-controller="HomeTabCtrl">
+
+    <div>
+        <iframe ng-src="{{ trustSrc(movie.src) }}" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        angular.module('myApp', [])
+        .controller('HomeTabCtrl', function($scope, $sce) {
+            $scope.trustSrc = function(src) {
+                return $sce.trustAsResourceUrl(src);
+            };
+
+            $scope.movie = {
+                src: "http://www.youtube.com/embed/Gym1QEsdHI0",
+                title: "Egghead.io AngularJS Binding"
+            };
+        });
+    </script>
+
+</body>
+</html>
