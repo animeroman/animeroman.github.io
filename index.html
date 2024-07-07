@@ -10,10 +10,11 @@
     <div>
         <iframe ng-src="{{ trustSrc(movie.src) }}" width="560" height="315" frameborder="0" allowfullscreen></iframe>
     </div>
-
-    <div>
-        <video src="/Day Trading For Beginners - Zac Hartley.ts"></video>
-    </div>
+    
+    <video controls width="400" height="300">
+        <source src="/Day Trading For Beginners - Zac Hartley.ts" type="video/mp4" width="400" height="300">
+        Video tag is not supported in this browser.
+    </video>
 
     <script>
         angular.module('myApp', [])
