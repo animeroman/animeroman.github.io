@@ -1,0 +1,50 @@
+.containersub {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.containersub h5 {
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    position: relative;
+    font-family: "Oswald", sans-serif;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.clicked .img-container img {
+    display: block;
+}
+
+.clicked {
+    background-color: #2e5aa3;
+    color: white;
+}
+
+.container-text {
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .img-container img {
+        width: 100%;
+    }
+}
