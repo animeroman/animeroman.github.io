@@ -36807,10 +36807,10 @@
       {
         "episodeNumber": 3,
         "title": "Episode 3 Title",
-        "dubServer1": "#",
-        "dubServer2": "#",
-        "subServer1": "#",
-        "subServer2": "#"
+        "dubServer1": "#1",
+        "dubServer2": "#2",
+        "subServer1": "#3",
+        "subServer2": "#4"
       },
       {
         "episodeNumber": 4,
