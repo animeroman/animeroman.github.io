@@ -18766,7 +18766,47 @@
       },
       {
         "episodeNumber": 100,
-        "title": "Episode 4 Title",
+        "title": "Episode 100 Title",
+        "subServer1": "#",
+        "subServer2": "#",
+        "dubServer1": "#",
+        "dubServer2": "#"
+      },
+      {
+        "episodeNumber": 120,
+        "title": "Episode 120 Title",
+        "subServer1": "#",
+        "subServer2": "#",
+        "dubServer1": "#",
+        "dubServer2": "#"
+      },
+      {
+        "episodeNumber": 200,
+        "title": "Episode 200 Title",
+        "subServer1": "#",
+        "subServer2": "#",
+        "dubServer1": "#",
+        "dubServer2": "#"
+      },
+      {
+        "episodeNumber": 221,
+        "title": "Episode 221 Title",
+        "subServer1": "#",
+        "subServer2": "#",
+        "dubServer1": "#",
+        "dubServer2": "#"
+      },
+      {
+        "episodeNumber": 300,
+        "title": "Episode 300 Title",
+        "subServer1": "#",
+        "subServer2": "#",
+        "dubServer1": "#",
+        "dubServer2": "#"
+      },
+      {
+        "episodeNumber": 386,
+        "title": "Episode 386 Title",
         "subServer1": "#",
         "subServer2": "#",
         "dubServer1": "#",
